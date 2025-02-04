@@ -2,7 +2,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-
+// definisco la cartella per i file statici
+app.use(express.static('public'));
 
 
 // definsco la prima rotta con un semplice messaggio
