@@ -56,6 +56,9 @@ app.get('/bacheca', (req, res) => {
         }
 
       ];
+       
+    //   ritorno l'array della bacheca in formato Json
+      res.json(bacheca);
 })
 
 
